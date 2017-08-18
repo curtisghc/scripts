@@ -1,0 +1,6 @@
+#!/bin/bash
+yourcity=kphl # Your city code goes here, read http://www.nws.noaa.gov/tg/siteloc.php
+weather $yourcity | grep Temperature
+weather $yourcity | grep Relative
+weather $yourcity | grep Wind
+weather $yourcity | grep Sky
